@@ -1,0 +1,76 @@
+2024-04-15 17:35:33,103 This is a warning message
+2024-04-15 17:38:06,204 This is a debug message
+2024-04-15 17:38:18,585 This is an error message
+2024-04-15 17:41:00,339 root WARNING  This is a warning message
+2024-04-15 17:41:06,720 root DEBUG  This is a debug message
+2024-04-15 17:41:11,745 root ERROR  This is an error message
+2024-04-15 17:45:35,105 root ERROR  [[1, 2, 3, 4], ('varun', 'deepika', 'neha'), 9865464, 5.4] This is an error message
+2024-04-15 21:37:45,339 root INFO  this is the start of my first for loop [[1, 2, 3, 4], ('varun', 'deepika', 'neha'), 9, 8, 7, 6]
+2024-04-15 21:37:45,340 root INFO  this is the value of i am logging [1, 2, 3, 4]
+2024-04-15 21:37:45,340 root INFO  this is the start of my first for loop [[1, 2, 3, 4], ('varun', 'deepika', 'neha'), 9, 8, 7, 6]
+2024-04-15 21:37:45,344 root INFO  this is the value of i am logging ('varun', 'deepika', 'neha')
+2024-04-15 21:37:45,344 root INFO  this is the start of my first for loop [[1, 2, 3, 4], ('varun', 'deepika', 'neha'), 9, 8, 7, 6]
+2024-04-15 21:37:45,344 root INFO  this is the value of i am logging 9
+2024-04-15 21:37:45,345 root INFO  this is the start of my first for loop [[1, 2, 3, 4], ('varun', 'deepika', 'neha'), 9, 8, 7, 6]
+2024-04-15 21:37:45,345 root INFO  this is the value of i am logging 8
+2024-04-15 21:37:45,345 root INFO  this is the start of my first for loop [[1, 2, 3, 4], ('varun', 'deepika', 'neha'), 9, 8, 7, 6]
+2024-04-15 21:37:45,345 root INFO  this is the value of i am logging 7
+2024-04-15 21:37:45,345 root INFO  this is the start of my first for loop [[1, 2, 3, 4], ('varun', 'deepika', 'neha'), 9, 8, 7, 6]
+2024-04-15 21:37:45,345 root INFO  this is the value of i am logging 6
+2024-04-15 21:42:00,855 root INFO  this is the start of my first for loop [[1, 2, 3, 4], ('varun', 'deepika', 'neha'), 9, 8, 7, 6]
+2024-04-15 21:42:00,855 root INFO  this is the value of i am logging [1, 2, 3, 4]
+2024-04-15 21:42:00,855 root INFO  this is the value of j am logging 1
+2024-04-15 21:42:00,855 root INFO  this is the value of j am logging 2
+2024-04-15 21:42:00,855 root INFO  this is the value of j am logging 3
+2024-04-15 21:42:00,855 root INFO  this is the value of j am logging 4
+2024-04-15 21:42:00,855 root INFO  this is the start of my first for loop [[1, 2, 3, 4], ('varun', 'deepika', 'neha'), 9, 8, 7, 6]
+2024-04-15 21:42:00,856 root INFO  this is the value of i am logging ('varun', 'deepika', 'neha')
+2024-04-15 21:42:00,856 root INFO  this is the start of my first for loop [[1, 2, 3, 4], ('varun', 'deepika', 'neha'), 9, 8, 7, 6]
+2024-04-15 21:42:00,856 root INFO  this is the value of i am logging 9
+2024-04-15 21:42:00,856 root INFO  this is the start of my first for loop [[1, 2, 3, 4], ('varun', 'deepika', 'neha'), 9, 8, 7, 6]
+2024-04-15 21:42:00,856 root INFO  this is the value of i am logging 8
+2024-04-15 21:42:00,856 root INFO  this is the start of my first for loop [[1, 2, 3, 4], ('varun', 'deepika', 'neha'), 9, 8, 7, 6]
+2024-04-15 21:42:00,856 root INFO  this is the value of i am logging 7
+2024-04-15 21:42:00,856 root INFO  this is the start of my first for loop [[1, 2, 3, 4], ('varun', 'deepika', 'neha'), 9, 8, 7, 6]
+2024-04-15 21:42:00,856 root INFO  this is the value of i am logging 6
+2024-04-15 21:43:50,093 root INFO  this is the start of my first for loop [[1, 2, 3, 4], ('varun', 'deepika', 'neha'), 9, 8, 7, 6]
+2024-04-15 21:43:50,093 root INFO  this is the value of i am logging [1, 2, 3, 4]
+2024-04-15 21:44:06,093 root INFO  this is the start of my first for loop [[1, 2, 3, 4], ('varun', 'deepika', 'neha'), 9, 8, 7, 6]
+2024-04-15 21:44:06,093 root INFO  this is the value of i am logging [1, 2, 3, 4]
+2024-04-15 21:44:06,093 root INFO  this is the value of j 1 and i is [1, 2, 3, 4]
+2024-04-15 21:44:06,093 root INFO  this is the value of j 2 and i is [1, 2, 3, 4]
+2024-04-15 21:44:06,093 root INFO  this is the value of j 3 and i is [1, 2, 3, 4]
+2024-04-15 21:44:06,093 root INFO  this is the value of j 4 and i is [1, 2, 3, 4]
+2024-04-15 21:44:06,093 root INFO  this is the start of my first for loop [[1, 2, 3, 4], ('varun', 'deepika', 'neha'), 9, 8, 7, 6]
+2024-04-15 21:44:06,094 root INFO  this is the value of i am logging ('varun', 'deepika', 'neha')
+2024-04-15 21:44:06,094 root INFO  this is the start of my first for loop [[1, 2, 3, 4], ('varun', 'deepika', 'neha'), 9, 8, 7, 6]
+2024-04-15 21:44:06,094 root INFO  this is the value of i am logging 9
+2024-04-15 21:44:06,094 root INFO  this is the start of my first for loop [[1, 2, 3, 4], ('varun', 'deepika', 'neha'), 9, 8, 7, 6]
+2024-04-15 21:44:06,094 root INFO  this is the value of i am logging 8
+2024-04-15 21:44:06,094 root INFO  this is the start of my first for loop [[1, 2, 3, 4], ('varun', 'deepika', 'neha'), 9, 8, 7, 6]
+2024-04-15 21:44:06,094 root INFO  this is the value of i am logging 7
+2024-04-15 21:44:06,094 root INFO  this is the start of my first for loop [[1, 2, 3, 4], ('varun', 'deepika', 'neha'), 9, 8, 7, 6]
+2024-04-15 21:44:06,094 root INFO  this is the value of i am logging 6
+2024-04-15 21:45:58,712 root INFO  this is the start of my first for loop [[1, 2, 3, 4], ('varun', 'deepika', 'neha'), 9, 8, 7, 6]
+2024-04-15 21:45:58,712 root INFO  this is the value of i am logging [1, 2, 3, 4]
+2024-04-15 21:45:58,713 root INFO  this is the value of j 1 and i is [1, 2, 3, 4]
+2024-04-15 21:45:58,713 root INFO  this is the value of j 2 and i is [1, 2, 3, 4]
+2024-04-15 21:45:58,713 root INFO  this is the value of j 3 and i is [1, 2, 3, 4]
+2024-04-15 21:45:58,713 root INFO  this is the value of j 4 and i is [1, 2, 3, 4]
+2024-04-15 21:45:58,713 root INFO  this is the start of my first for loop [[1, 2, 3, 4], ('varun', 'deepika', 'neha'), 9, 8, 7, 6]
+2024-04-15 21:45:58,713 root INFO  this is the value of i am logging ('varun', 'deepika', 'neha')
+2024-04-15 21:45:58,713 root INFO  this is the start of my first for loop [[1, 2, 3, 4], ('varun', 'deepika', 'neha'), 9, 8, 7, 6]
+2024-04-15 21:45:58,713 root INFO  this is the value of i am logging 9
+2024-04-15 21:45:58,713 root INFO  this is the start of my first for loop [[1, 2, 3, 4], ('varun', 'deepika', 'neha'), 9, 8, 7, 6]
+2024-04-15 21:45:58,713 root INFO  this is the value of i am logging 8
+2024-04-15 21:45:58,713 root INFO  this is the start of my first for loop [[1, 2, 3, 4], ('varun', 'deepika', 'neha'), 9, 8, 7, 6]
+2024-04-15 21:45:58,713 root INFO  this is the value of i am logging 7
+2024-04-15 21:45:58,713 root INFO  this is the start of my first for loop [[1, 2, 3, 4], ('varun', 'deepika', 'neha'), 9, 8, 7, 6]
+2024-04-15 21:45:58,713 root INFO  this is the value of i am logging 6
+2024-04-15 21:45:58,713 root INFO  this is the value of my integer list [1, 2, 3, 4, 9, 8, 7, 6] and string list ['varun', 'deepika', 'neha']
+2024-04-16 12:35:30,659 Number cannot be divisible by 0!
+2024-04-16 12:36:18,649 Number cannot be divisible by 0!
+2024-04-16 12:37:23,640 Number cannot be divisible by 0!
+2024-04-16 12:43:48,896 There is no file present with the name.
+2024-04-16 12:44:24,602 Number cannot be divisible by 0!
+2024-04-16 12:44:25,411 There is no file present with the name.

@@ -62,3 +62,5 @@ print(colors)
 colors = ["voilet", "indigo", "blue", "green"] # Concatenating 2 lists.
 colors2 = ["yellow", "orange", "red"]
 print(colors + colors2)
+
+

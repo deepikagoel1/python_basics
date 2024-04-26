@@ -1,0 +1,21 @@
+2024-04-16 12:45:56,068 Number cannot be divisible by 0!
+2024-04-16 12:45:56,890 There is no file present with the name.
+2024-04-16 12:47:09,836 Number cannot be divisible by 0!
+2024-04-16 12:47:10,739 There is no file present with the name.
+ERROR:root:Number cannot be divisible by 0!
+ERROR:root:There is no file present with the name.
+ERROR:root:Number cannot be divisible by 0!
+ERROR:root:There is no file present with the name.
+ERROR:root:There is no file present with the name.
+INFO:root:This is the else block which is going to be print!
+INFO:root:This is the else block which is going to be print!
+INFO:root:This is the else block which is going to be print!
+INFO:root:The statement is going to run from the final block!
+INFO:root:This is the else block which is going to be print!
+INFO:root:The statement is going to run from the final block!
+ERROR:root:There is no file present with the name.
+INFO:root:The statement is going to run from the final block!
+INFO:root:This is the else block which is going to be print!
+INFO:root:The statement is going to run from the final block!
+ERROR:root:There is no file present with the name.
+INFO:root:The statement is going to run from the final block!
