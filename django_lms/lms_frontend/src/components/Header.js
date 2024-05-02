@@ -10,20 +10,26 @@ function Header() {
               <span className="navbar-toggler-icon"></span>
               </button>
               <div className="collapse navbar-collapse" id="navbarNav">
-              <ul className="navbar-nav ms-auto">
-                  <li className="nav-item">
+                <div className='navbar-nav ms-auto'>
+                  
                   <Link className="nav-link active" aria-current="page" to="/">Home</Link>
-                  </li>
-                  <li className="nav-item">
+                  
+                  
                   <a className="nav-link" href="#">Courses</a>
-                  </li>
-                  <li className="nav-item">
+                  
+                  
                   <a className="nav-link" href="#">Teachers</a>
-                  </li>
-                  <li className="nav-item">
+                  
+                  
                   <Link className="nav-link" to="/about">About Us</Link>
-                  </li>
-              </ul>
+                  
+                  
+                  <Link className="nav-link" to="/register">Register</Link>
+                  
+                  
+                  <Link className="nav-link" to="/login">Login</Link>
+                  
+                  </div>
               </div>
           </div>
           </nav>

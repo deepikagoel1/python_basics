@@ -7,11 +7,7 @@ function CourseDetail() {
     <div className="card text-right">
       <div className="row g-0">
         <div className="col-md-4">
-          <img
-            src="/logo512.png"
-            className="img-fluid img-thumbnail"
-            alt="Course Image"
-          />
+          <img src="/logo512.png" className="img-fluid img-thumbnail" alt="Course Image"/>
         </div>
         <div className="col-md-8">
           <div className="card-body">
@@ -43,62 +39,32 @@ function CourseDetail() {
         </div>
       </div>
       {/*Course Video */}
-      <div className="card mt-4">
+      <div className="card mt-4 offset-0">
         <div className="card-header">Course Videos</div>
         <ul className="list-group list-group-flush">
-          <li className="list-group-item">
-            Introduction
-            <button
-              className="btn btn-sm btn-danger float-end"
-              style={{ color: "cornflowerblue" }}
-            >
-              <i class="bi-youtube"></i>
-            </button>
+          <li className="list-group-item">Introduction
+          <span className="float-end">
+            <span className="me-3">1 hr 30 mins</span>
+                <button className="btn btn-sm btn-danger"> <i className="bi-youtube"></i></button>
+            </span>
           </li>
-          <li className="list-group-item">
-            Setup Project
-            <button
-              className="btn btn-sm btn-danger float-end"
-              style={{ color: "cornflowerblue" }}
-            >
-              <i class="bi-youtube"></i>
-            </button>
+          <li className="list-group-item">Introduction
+          <span className="float-end">
+            <span className="me-3">1 hr 30 mins</span>
+                <button className="btn btn-sm btn-danger"> <i className="bi-youtube"></i></button>
+            </span>
           </li>
-          <li className="list-group-item">
-            Start with functional component
-            <button
-              className="btn btn-sm btn-danger float-end"
-              style={{ color: "cornflowerblue" }}
-            >
-              <i class="bi-youtube"></i>
-            </button>
+          <li className="list-group-item">Introduction
+          <span className="float-end">
+            <span className="me-3">1 hr 30 mins</span>
+                <button className="btn btn-sm btn-danger"> <i className="bi-youtube"></i></button>
+            </span>
           </li>
-          <li className="list-group-item">
-            Introduction
-            <button
-              className="btn btn-sm btn-danger float-end"
-              style={{ color: "cornflowerblue" }}
-            >
-              <i class="bi-youtube"></i>
-            </button>
-          </li>
-          <li className="list-group-item">
-            Setup Project
-            <button
-              className="btn btn-sm btn-danger float-end"
-              style={{ color: "cornflowerblue" }}
-            >
-              <i class="bi-youtube"></i>
-            </button>
-          </li>
-          <li className="list-group-item">
-            Start with functional component
-            <button
-              className="btn btn-sm btn-danger float-end"
-              style={{ color: "cornflowerblue" }}
-            >
-              <i class="bi-youtube"></i>
-            </button>
+          <li className="list-group-item">Introduction
+          <span className="float-end">
+            <span className="me-3">1 hr 30 mins</span>
+                <button className="btn btn-sm btn-danger"> <i className="bi-youtube"></i></button>
+            </span>
           </li>
         </ul>
       </div>
