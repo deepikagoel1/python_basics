@@ -1,4 +1,4 @@
-
+import {Link} from 'react-router-dom';
 
 function Home() {
   return (
@@ -17,7 +17,7 @@ function Home() {
                             }}>
                         <a href="#"><img src="logo512.png" className="card-img-top" alt="..."/></a>
                     <div className="card-body">
-                    <h5 className="card-title"><a href="#">Course Title</a></h5>
+                    <h5 className="card-title"><Link to="/detail/1">Course Title</Link></h5>
                     </div>
                 </div>
             </div>
