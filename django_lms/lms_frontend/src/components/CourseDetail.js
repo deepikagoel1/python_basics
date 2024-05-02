@@ -4,7 +4,17 @@ function CourseDetail()
 {
     let {course_id} = useParams();
     return(
-        <h1>Course Detail {course_id}</h1>
+        <div className='container mt-3'>
+            <div className='row'>
+                <div className='col-4'>
+                    <img src="/logo512.png" className="thumbnail" alt="..."/>
+                    <div className='col-8'>
+                        <h3> Course Title </h3>
+                        <p> Course Description </p>
+                    </div>
+                </div>
+            </div>
+        </div>
     )
 }
 
