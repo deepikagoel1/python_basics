@@ -10,24 +10,23 @@ function Dashboard()
                  <div className="card" style={{"width": "18rem"}}>
                     <h5 className='card-header'>Dashboard</h5>
                     <ul className="list-group list-group-flush">
-                        <li className="list-group-item">
+                        <div className="list-group-item">
                         <Link to="/" className='list-group-item list-group-item-action'> My Courses</Link>
-                        </li>
-                        <li className="list-group-item">
+                        
+                        
                         <Link to="/" className='list-group-item list-group-item-action'> Favorite Courses</Link>
-                        </li>
-                        <li className="list-group-item">
+                        
+                        
                         <Link to="/" className='list-group-item list-group-item-action'> Recommended Courses</Link>
-                        </li>
-                        <li className="list-group-item">
+                        
+                        
                         <Link to="/" className='list-group-item list-group-item-action'> Profile Settings</Link>
-                        </li>
-                        <li className="list-group-item">
+                        
+                        
                         <Link to="/" className='list-group-item list-group-item-action'> Change Password</Link>
-                        </li>
-                        <li className="list-group-item">
+                        
                         <Link to="/" className='list-group-item list-group-item-action'> Logout</Link>
-                        </li>
+                        </div>
                     </ul>
                     </div>
                  </aside>
@@ -35,9 +34,9 @@ function Dashboard()
                  <div className='card mt-4'>
                     <h5 className='card-header'>My Courses</h5>
                     <div className='card-body'>
-                        <table  className='table table-bordered'>
+                        <table  className='table table-striped table-hover table-bordered border-primary table-primary' style={{"table-cell-padding-y": ".25rem"}}>
                             <thead>
-                                <tr>
+                                <tr className='table-secondary'>
                                     <th>Name</th>
                                     <th>Created By</th>
                                     <th>Action</th>
