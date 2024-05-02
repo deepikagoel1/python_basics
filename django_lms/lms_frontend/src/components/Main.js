@@ -1,9 +1,11 @@
-
-import Home from './Home'
+import Header from './Header';
+import Home from './Home';
 
 function Main() {
   return (
     <div className="App">
+        
+      <Header />
       <Home />
       
     </div>
