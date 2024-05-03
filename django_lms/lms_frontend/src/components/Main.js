@@ -6,6 +6,12 @@ import CourseDetail from './CourseDetail'
 import {Routes as Switch, Route} from 'react-router-dom';
 import TeacherDetails from './TeacherDetails';
 
+
+//Importing list of All Courses
+import AllCourses from './AllCourses';
+import PopularCourses from './PopularCourses';
+import PopularTeachers from './PopularTeachers';
+
 //Importing from User Module
 import Login from './User/Login';
 import Register from './User/Register';
@@ -35,6 +41,10 @@ function Main() {
         <Route path = "/" element = {<Home />} />
         {/* <Route path = "/about" element = {<About />} /> */}
         <Route path = "/teacher-details/:teacher_id" element = {<TeacherDetails />} />
+        <Route path = "/all-courses" element = {<AllCourses />} />
+        <Route path = "/popular-courses" element = {<PopularCourses />} />
+        <Route path = "/popular-teachers" element = {<PopularTeachers />} />
+
         {/* Student Dashboard Links */}
         <Route path = "/detail/:course_id" element = {<CourseDetail />} />
         <Route path = "/student-login" element = {<Login />} />
@@ -45,6 +55,7 @@ function Main() {
         <Route path = "/recommended-courses" element = {<RecommendedCourses />} />
         <Route path = "/profile-setting" element = {<ProfileSetting />} />
         <Route path = "/change-password" element = {<ChangePassword />} />
+
         {/* Teacher Dashboard Links */}
         <Route path = "/teacher-login" element = {<TeacherLogin />} />
         <Route path = "/teacher-dashboard" element = {<TeacherDashboard />} />
