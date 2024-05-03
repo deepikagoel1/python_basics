@@ -18,7 +18,7 @@ function TeacherDetails() {
               classes to make the card horizontal at the md breakpoint. Further
               adjustments may be needed depending on your card content.
             </p>
-            <p className="card-text">Skills: <Link to="/teacher-details/1">PHP</Link>,  
+            <p className="card-text">Skills: <Link to="/category-courses/1">PHP</Link>,  
             <Link to="/teacher-details/1">Python</Link>, <Link to="/teacher-details/1">Javascript</Link>
             </p>
             <p className="card-text">Recent Course: <Link to="/teacher-details/1">ReactJS Course</Link></p>

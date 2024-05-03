@@ -11,6 +11,7 @@ import TeacherDetails from './TeacherDetails';
 import AllCourses from './AllCourses';
 import PopularCourses from './PopularCourses';
 import PopularTeachers from './PopularTeachers';
+import CategoryCourses from './CategoryCourses';
 
 //Importing from User Module
 import Login from './User/Login';
@@ -44,6 +45,7 @@ function Main() {
         <Route path = "/all-courses" element = {<AllCourses />} />
         <Route path = "/popular-courses" element = {<PopularCourses />} />
         <Route path = "/popular-teachers" element = {<PopularTeachers />} />
+        <Route path = "/category-courses/:category_slug" element = {<CategoryCourses />} />
 
         {/* Student Dashboard Links */}
         <Route path = "/detail/:course_id" element = {<CourseDetail />} />

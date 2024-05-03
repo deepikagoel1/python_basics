@@ -36,6 +36,12 @@ function AddCourses()
                                     </div>
                                 </div>
                                 <div className="mb-3 row">
+                                    <label for="inputFile" className="col-sm-2 col-form-label active">Course Image</label>
+                                    <div className="col-sm-10">
+                                    <input type="file" className="form-control" id="inputfile" />
+                                    </div>
+                                </div>
+                                <div className="mb-3 row">
                                     <label for="description" className="col-sm-2 col-form-label">Technologies</label>
                                     <div className="col-sm-10">
                                     <textarea className='form-control'></textarea>
