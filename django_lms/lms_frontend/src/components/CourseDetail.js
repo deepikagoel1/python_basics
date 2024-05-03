@@ -48,8 +48,26 @@ function CourseDetail() {
           <li className="list-group-item">Introduction
           <span className="float-end">
             <span className="me-3">1 hr 30 mins</span>
-                <button className="btn btn-sm btn-danger"> <i className="bi-youtube"></i></button>
+                <button className="btn btn-sm btn-danger" data-bs-toggle="modal" data-bs-target="#videoModal1"> <i className="bi-youtube"></i></button>
             </span>
+            {/* <!--Starting Video Modal --> */}
+            <div className="modal fade" id="videoModal1" tabindex="0" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div className="modal-dialog modal-xl">
+                <div className="modal-content">
+                  <div className="modal-header">
+                    <h5 className="modal-title" id="exampleModalLabel">Video 1</h5>
+                    <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div className="modal-body">
+                  <div class="ratio ratio-16x9">
+                      <iframe src="https://www.youtube.com/embed/zpOULjyy-n8?rel=0" title="YouTube video" allowfullscreen></iframe>
+                  </div>
+                  </div>
+                  
+                </div>
+              </div>
+            </div>
+            {/* <!--Ending Video Modal --> */}
           </li>
           <li className="list-group-item">Introduction
           <span className="float-end">
