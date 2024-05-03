@@ -1,8 +1,11 @@
 import { useParams } from "react-router-dom";
 import {Link} from 'react-router-dom';
 
+
 function CourseDetail() {
   let { course_id } = useParams();
+  let { teacher_id } = useParams();
+
   return (
     <div className="card text-right">
       <div className="row g-0">
@@ -21,7 +24,7 @@ function CourseDetail() {
             </p>
             <p className="card-text">
               <small className="text-muted">
-                Course By: <a href="#">Teacher 1</a>
+                Course By: <Link to="/teacher-details/1">Teacher 1</Link>
               </small>
             </p>
             <p className="card-text">
@@ -70,24 +73,11 @@ function CourseDetail() {
       </div>
       {/* End Course Video */}
 
-      <h3 className="pb-1 mb-4 mt-5">
-        Related Courses
-        <a href="#" className="float-end">
-          See All
-        </a>{" "}
+      <h3 className="pb-1 mb-4 mt-5"> Related Courses <a href="#" className="float-end">See All </a>
       </h3>
       <div className="row mb-4">
         <div className="col-md-3">
-          <div
-            className="card"
-            style={{
-              width: "18rem",
-              fontSize: "20px",
-              padding: "20px",
-              backgroundColor: "light",
-              color: "white",
-            }}
-          >
+          <div className="card" style={{ width: "18rem", fontSize: "20px", padding: "20px", backgroundColor: "light", color: "white",}}>
             <a href="#">
               <img src="/logo512.png" className="card-img-top" alt="..." />
             </a>

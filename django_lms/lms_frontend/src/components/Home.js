@@ -15,7 +15,7 @@ function Home() {
                             color: 'white'
                             
                             }}>
-                        <a href="#"><img src="logo512.png" className="card-img-top" alt="..."/></a>
+                        <Link to="/detail/1"><img src="logo512.png" className="card-img-top" alt="..."/></Link>
                     <div className="card-body">
                     <h5 className="card-title"><Link to="/detail/1">Course Title</Link></h5>
                     </div>
